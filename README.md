@@ -2,7 +2,8 @@
 Função de Excel e Google Sheets para verificar se CPF foi digitado corretamente
 
 Função (Substituir "$A2" pela célula que contém o CPF):
-```=SE(
+```
+=SE(
     ÉNÚM(VALOR($A2));SE(
         NÚM.CARACT($A2)=11;SE(
             OU(
@@ -48,4 +49,5 @@ Função (Substituir "$A2" pela célula que contém o CPF):
             FALSO);
         FALSO);
     FALSO
-)```
+)
+```
